@@ -1,5 +1,3 @@
-
-  
 #include<stdio.h>
 #include<cs50.h>
   
@@ -11,7 +9,7 @@ int main(void){
     case 1:
       for(i=0;i<rows;i++)
       {
-        for(j=rows;j>0;j--)
+        for(j=rows;j>=rows-i;j--)
         {
           printf("#");
         }
@@ -33,5 +31,7 @@ int main(void){
         printf("\n");
       }
       break;
+    default:break;
   }
 }
+  
