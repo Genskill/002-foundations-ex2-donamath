@@ -21,12 +21,15 @@ int main(void){
     case 2:
       for(i=0;i<rows;i++)
       {
-        for(j=rows;j>0;j--)
+        for(j=rows;j<rows;j++)
         {
-          while(j>rows-i)
+          if(j>rows-i)
             printf("#");
-          printf(" ");
+          else
+            printf(" ");
+            
         }
+        
         printf("\n");
       }
       break;
