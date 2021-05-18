@@ -1,8 +1,4 @@
-./
- side 1 1
- side 2 2
- side 3 3
- No
+
  
  #include<stdio.h>
  #include<cs50.h>
