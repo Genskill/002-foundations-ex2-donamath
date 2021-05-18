@@ -21,9 +21,9 @@ int main(void){
     case 2:
       for(i=0;i<rows;i++)
       {
-        for(j=rows;j<rows;j++)
+        for(j=0;j<rows;j++)
         {
-          if(j>rows-i)
+          if(j>=rows-i-1)
             printf("#");
           else
             printf(" ");
