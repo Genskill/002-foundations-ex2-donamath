@@ -9,7 +9,7 @@ int main(void){
     case 1:
       for(i=0;i<rows;i++)
       {
-        for(j=rows;j>=rows-i;j--)
+        for(j=rows-i;j>0;j--)
         {
           printf("#");
         }
